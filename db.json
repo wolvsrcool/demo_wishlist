@@ -1,0 +1,340 @@
+{
+  "wishlist": [
+    {
+      "id": "1a2b",
+      "title": "MacBook Pro 16-inch",
+      "imgSrc": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "description": "Latest Apple MacBook Pro with M3 chip, 16GB RAM, 1TB SSD for professional work and creative projects",
+      "price": 2499,
+      "createdAt": 1734276279829
+    },
+    {
+      "id": "3c4d",
+      "title": "Sony WH-1000XM5 Headphones",
+      "imgSrc": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "description": "Industry-leading noise canceling wireless headphones with exceptional sound quality and 30-hour battery life",
+      "price": 399,
+      "createdAt": 1734189879829
+    },
+    {
+      "title": "Apple Watch Series 9",
+      "imgSrc": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png",
+      "description": "Smartwatch with advanced health monitoring, GPS, always-on display, and Siri integration",
+      "price": 429,
+      "createdAt": 1733757879829,
+      "id": "m3n4"
+    },
+    {
+      "id": "o5p6",
+      "title": "PlayStation 5 Console",
+      "imgSrc": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400",
+      "description": "Next-gen gaming console with 4K/120fps support, ultra-fast SSD, and immersive 3D audio",
+      "price": 499,
+      "createdAt": 1733671479829
+    },
+    {
+      "id": "q7r8",
+      "title": "iPad Air M2",
+      "imgSrc": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "description": "Powerful tablet with M2 chip, 11-inch Liquid Retina display, and Apple Pencil support",
+      "price": 799,
+      "createdAt": 1733585079829
+    },
+    {
+      "id": "s9t0",
+      "title": "Bose QuietComfort Earbuds II",
+      "imgSrc": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400",
+      "description": "True wireless earbuds with world-class noise cancellation and CustomTune sound technology",
+      "price": 299,
+      "createdAt": 1733498679829
+    },
+    {
+      "id": "u1v2",
+      "title": "DJI Mini 3 Pro Drone",
+      "imgSrc": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400",
+      "description": "Compact drone with 4K/60fps video, 48MP photos, and 34-minute flight time for aerial photography",
+      "price": 909,
+      "createdAt": 1733412279829
+    },
+    {
+      "id": "w3x4",
+      "title": "KitchenAid Stand Mixer",
+      "imgSrc": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400",
+      "description": "Professional 5-quart stand mixer with 10-speed settings and multiple attachment options",
+      "price": 449,
+      "createdAt": 1733325879829
+    },
+    {
+      "id": "y5z6",
+      "title": "Samsung Odyssey G9 Monitor",
+      "imgSrc": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400",
+      "description": "49-inch dual QHD gaming monitor with 240Hz refresh rate and 1000R curvature for immersive experience",
+      "price": 1499,
+      "createdAt": 1733239479829
+    },
+    {
+      "id": "a7b8",
+      "title": "LEGO Star Wars Millennium Falcon",
+      "imgSrc": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400",
+      "description": "Ultimate collector series with 7541 pieces, detailed interior, and display stand",
+      "price": 849,
+      "createdAt": 1733153079829
+    },
+    {
+      "id": "c9d0",
+      "title": "Yeti Tundra 65 Cooler",
+      "imgSrc": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+      "description": "Roto-molded cooler with 65-quart capacity, bear-proof design, and 5-year warranty",
+      "price": 425,
+      "createdAt": 1733066679829
+    },
+    {
+      "id": "k1l2",
+      "title": "Kindle Paperwhite Signature",
+      "imgSrc": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400",
+      "description": "32GB e-reader with 6.8-inch glare-free display, adjustable warm light, and wireless charging",
+      "price": 189,
+      "createdAt": 1733844279829
+    },
+    {
+      "id": "a2b3",
+      "title": "iPhone 15 Pro",
+      "imgSrc": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400",
+      "description": "6.1-inch Super Retina XDR display, A17 Pro chip, 48MP main camera, titanium design",
+      "price": 999,
+      "createdAt": 1734276279829
+    },
+    {
+      "id": "c4d5",
+      "title": "Samsung Galaxy S24 Ultra",
+      "imgSrc": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+      "description": "6.8-inch Dynamic AMOLED display, S Pen, 200MP camera, Snapdragon 8 Gen 3",
+      "price": 1299,
+      "createdAt": 1734189879829
+    },
+    {
+      "id": "e6f7",
+      "title": "iPad Pro 12.9-inch",
+      "imgSrc": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "description": "M2 chip, Liquid Retina XDR display, 5G connectivity, Apple Pencil compatible",
+      "price": 1099,
+      "createdAt": 1734103479829
+    },
+    {
+      "id": "g8h9",
+      "title": "MacBook Air 13-inch",
+      "imgSrc": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400",
+      "description": "M3 chip, 13.6-inch Liquid Retina display, 8GB RAM, 256GB SSD",
+      "price": 1099,
+      "createdAt": 1734017079829
+    },
+    {
+      "id": "i0j1",
+      "title": "Apple Watch Ultra 2",
+      "imgSrc": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
+      "description": "49mm titanium case, dual-frequency GPS, depth gauge, action button",
+      "price": 799,
+      "createdAt": 1733930679829
+    },
+    {
+      "title": "Xbox Series X",
+      "imgSrc": "https://yabloki.ua/media/cache/sylius_shop_product_original/f8/b5/igrova-pristavka-microsoft-xbox-series-x-1tb-889842640816_800647e8-9450-472b-aa62-ecc2e61df9d0-4.png.webp",
+      "description": "12 teraflops, 4K gaming, 1TB SSD, backward compatibility, Game Pass",
+      "price": 499,
+      "createdAt": 1733757879829,
+      "id": "m4n5"
+    },
+    {
+      "id": "o6p7",
+      "title": "Nikon Z9 Camera",
+      "imgSrc": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400",
+      "description": "45.7MP stacked sensor, 8K video, 120 fps continuous shooting, no mechanical shutter",
+      "price": 5499,
+      "createdAt": 1733671479829
+    },
+    {
+      "id": "q8r9",
+      "title": "DJI Mavic 3 Pro",
+      "imgSrc": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=400",
+      "description": "Triple camera system, 5.1K video, 46-minute flight time, omnidirectional obstacle sensing",
+      "price": 2199,
+      "createdAt": 1733585079829
+    },
+    {
+      "id": "s0t1",
+      "title": "Bose QuietComfort Ultra",
+      "imgSrc": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400",
+      "description": "Wireless noise canceling headphones with immersive audio and 24-hour battery",
+      "price": 429,
+      "createdAt": 1733498679829
+    },
+    {
+      "id": "u2v3",
+      "title": "LG OLED C3 TV",
+      "imgSrc": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400",
+      "description": "65-inch 4K Smart TV, α9 Gen6 AI processor, Dolby Vision IQ, webOS 23",
+      "price": 1599,
+      "createdAt": 1733412279829
+    },
+    {
+      "id": "w4x5",
+      "title": "Dell XPS 15",
+      "imgSrc": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=400",
+      "description": "15.6-inch 4K display, Intel Core i9, 32GB RAM, 1TB SSD, NVIDIA RTX 4060",
+      "price": 2399,
+      "createdAt": 1733325879829
+    },
+    {
+      "id": "y6z7",
+      "title": "Google Pixel 8 Pro",
+      "imgSrc": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400",
+      "description": "6.7-inch OLED, Tensor G3 chip, 50MP triple camera, 7 years of updates",
+      "price": 999,
+      "createdAt": 1733239479829
+    },
+    {
+      "title": "Meta Quest 3",
+      "imgSrc": "https://mygadget.ua/image/cache/catalog/gadgets/consoles/meta/quest3/1-max-850.jpg",
+      "description": "Mixed reality headset, Snapdragon XR2 Gen 2, pancake lenses, 128GB storage",
+      "price": 499,
+      "createdAt": 1733153079829,
+      "id": "a8b9"
+    },
+    {
+      "id": "c0d1",
+      "title": "GoPro HERO12 Black",
+      "imgSrc": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400",
+      "description": "5.3K video, HyperSmooth 6.0 stabilization, 27MP photos, waterproof to 33ft",
+      "price": 399,
+      "createdAt": 1733066679829
+    },
+    {
+      "title": "Amazon Echo Show 15",
+      "imgSrc": "https://sm.pcmag.com/t/pcmag_au/review/a/amazon-ech/amazon-echo-show-15-2024_fns6.1920.jpg",
+      "description": "15.6-inch smart display, Alexa, photo frame, family organizer, wall mountable",
+      "price": 249,
+      "createdAt": 1732980279829,
+      "id": "e2f3"
+    },
+    {
+      "id": "g4h5",
+      "title": "Microsoft Surface Laptop 5",
+      "imgSrc": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400",
+      "description": "13.5-inch PixelSense touchscreen, Intel Core i7, 16GB RAM, 512GB SSD",
+      "price": 1299,
+      "createdAt": 1732893879829
+    },
+    {
+      "id": "i6j7",
+      "title": "Razer Blade 15",
+      "imgSrc": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400",
+      "description": "15.6-inch QHD 240Hz, Intel Core i9, NVIDIA GeForce RTX 4070, 32GB RAM",
+      "price": 2699,
+      "createdAt": 1732807479829
+    },
+    {
+      "id": "k8l9",
+      "title": "Fitbit Sense 2",
+      "imgSrc": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
+      "description": "Advanced health smartwatch, stress management, ECG app, 6+ day battery",
+      "price": 299,
+      "createdAt": 1732721079829
+    },
+    {
+      "title": "Ferrari F40",
+      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/1989_Ferrari_F40_SCD_24.jpg/1200px-1989_Ferrari_F40_SCD_24.jpg",
+      "description": "Iconic 1987 Ferrari F40 supercar with twin-turbo V8 performance",
+      "price": 1500000,
+      "createdAt": 1732721079829,
+      "id": "w1"
+    },
+    {
+      "title": "Luxury Yacht",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLiuG6R6UvE0eKTDTBQVE7kHxOAzvgcN3cw&s",
+      "description": "Prestigious multi-million dollar yacht with full luxury amenities",
+      "price": 25000000,
+      "createdAt": 1732721079829,
+      "id": "w2"
+    },
+    {
+      "title": "Powerlifting Plates Set",
+      "imgSrc": "https://www.xeniosusa.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/p/s/psbpcstpl_0_/www.xeniosusa.com-Xenios-USA-PSBPCSTPL-31.jpg",
+      "description": "Competition-grade powerlifting plates for squats, bench, and deadlifts",
+      "price": 600,
+      "createdAt": 1732721079829,
+      "id": "w3"
+    },
+    {
+      "title": "Milk Chocolate",
+      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/8/84/Milka_Alpine_Milk_Chocolate_bar_100g_with_chunks_broken_off.jpg",
+      "description": "Rich creamy milk chocolate bar",
+      "price": 3,
+      "createdAt": 1732721079829,
+      "id": "w4"
+    },
+    {
+      "title": "Honda NSX (1st Gen)",
+      "imgSrc": "https://static.cargurus.com/images/forsale/2025/11/08/10/25/1991_acura_nsx-pic-7229109448135497765-1024x768.jpeg",
+      "description": "Classic first-generation Honda NSX, legendary handling and engineering",
+      "price": 120000,
+      "createdAt": 1732721079829,
+      "id": "w5"
+    },
+    {
+      "title": "Porsche 918 Spyder",
+      "imgSrc": "https://amian-collectioncars.com/wp-content/uploads/2024/08/240802_Porsche-918-Spyder-7.jpg",
+      "description": "Hybrid hypercar with unparalleled performance from Porsche",
+      "price": 1400000,
+      "createdAt": 1732721079829,
+      "id": "w6"
+    },
+    {
+      "title": "Lamborghini Diablo",
+      "imgSrc": "https://www.autocentre.ua/wp-content/uploads/2024/12/na-prodazhu-vystavyly-eksklyuzyvnyj-lamborghini-diablo-foto-1-871x572-c-default.jpg",
+      "description": "Legendary 1990s Lamborghini Diablo with V12 engine",
+      "price": 300000,
+      "createdAt": 1732721079829,
+      "id": "w7"
+    },
+    {
+      "title": "Mansion in Spain",
+      "imgSrc": "https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2025-01/images/1246650703.jpg?VersionId=Orns9nI4z0bHC53owFW5Bs5chL67R9.Z&itok=jVsXW7ua",
+      "description": "Luxurious Mediterranean-style mansion with pool and scenic views",
+      "price": 5000000,
+      "createdAt": 1732721079829,
+      "id": "w8"
+    },
+    {
+      "title": "Premium Pull-Up Bar",
+      "imgSrc": "https://www.gornation.com/cdn/shop/files/pull-up-station-regular-produktbild-1.jpg?v=1761559700&width=1080",
+      "description": "High-end pull-up bar for home workouts with multiple grip positions",
+      "price": 350,
+      "createdAt": 1732721079829,
+      "id": "w9"
+    },
+    {
+      "title": "Milk Chocolate (3 Bars)",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_GPZyPMIL4JhKSklFkmMtpFCjrEU9cL_dKw&s",
+      "description": "Bundle of 3 creamy milk chocolate bars",
+      "price": 8,
+      "createdAt": 1732721079829,
+      "id": "w10"
+    },
+    {
+      "title": "Apples (6 pcs)",
+      "imgSrc": "https://media.istockphoto.com/id/1365099869/photo/six-apples.jpg?s=612x612&w=0&k=20&c=Kx9jNvEET5ERr7oHNFMxroTc54K1Ngk7R1BW9ICX2PU=",
+      "description": "Fresh and crisp apples, pack of six",
+      "price": 4,
+      "createdAt": 1732721079829,
+      "id": "w11"
+    },
+    {
+      "title": "Bananas (4 pcs)",
+      "imgSrc": "https://media.gettyimages.com/id/173242750/photo/banana-bunch.jpg?s=612x612&w=gi&k=20&c=0zMAHtwBfpRc6EVz-JSmpkhPn9wVIJt6O_4DSzc3UTw=",
+      "description": "Ripe bananas, pack of five",
+      "price": 3,
+      "createdAt": 1732721079829,
+      "id": "w12"
+    }
+  ]
+}
