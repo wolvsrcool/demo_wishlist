@@ -54,13 +54,13 @@ export function WishlistProvider({ children }: Props) {
 
   const getWishlistSortedPaginated = useCallback(
     async function () {
-      const sortStr = `_sort=${activeSort.field}&_order=${
-        activeSort.value === "desc" ? "desc" : "asc"
+      const sortStr = `_sort=${activeSort.value === "desc" ? "-" : ""}${
+        activeSort.field
       }`;
 
       const data = await get(`wishlist?${sortStr}&_page=${page}&_per_page=10`);
       setWishlist(data.data);
-      setTotalPages(Math.ceil(Number(data.headers.get(`X-Total-Count`)) / 10));
+      setTotalPages(data.pages);
     },
     [get, activeSort, page]
   );
@@ -68,7 +68,7 @@ export function WishlistProvider({ children }: Props) {
   const getWishById = useCallback(
     async function (id: string) {
       const data = await get(`wishlist/${id}`);
-      return data.data;
+      return data;
     },
     [get]
   );
