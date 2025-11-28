@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import type { Wish } from "../contexts/WishlistContext";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://jsonserverwishlist-production.up.railway.app/";
 
 export function useApi() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -13,19 +13,18 @@ export function useApi() {
         setError(null);
         setIsLoading(true);
 
-        const res = await fetch(`${BASE_URL}/${endpoint}`, {
+        const res = await fetch(`${BASE_URL}${endpoint}`, {
           headers: {
             "Content-Type": "application/json",
             ...options.headers,
           },
           ...options,
         });
-
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
         const data = await res.json();
-        return data;
+        return { data, headers: res.headers };
       } catch (error) {
         const errorMessage =
           error instanceof Error ? error.message : "Unknown error";

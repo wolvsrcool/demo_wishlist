@@ -56,7 +56,7 @@ export function Select({ selectObj, value, setValue }: Props) {
       <div
         className="whitespace-nowrap"
         style={{
-          textDecoration: sortedBy === attributeName ? "underline" : "1",
+          textDecoration: sortedBy === attributeName ? "underline" : "none",
         }}
       >
         {name}

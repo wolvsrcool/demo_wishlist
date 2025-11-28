@@ -12,7 +12,7 @@ import type { OutletContextType } from "./Container";
 export function WishPage() {
   const [wish, setWish] = useState<Wish>();
   const { id } = useParams();
-  const { getWishById } = useWishlist();
+  const { getWishById, isLoading } = useWishlist();
   const { setWishToEdit, setWishToDelete, refetchWish, setRefetchWish } =
     useOutletContext<OutletContextType>();
 
@@ -45,7 +45,9 @@ export function WishPage() {
       </Link>
 
       <div className="flex flex-col gap-4 flex-1">
-        {!wish ? (
+        {isLoading ? (
+          <p>Loading...</p>
+        ) : !wish ? (
           `No wish with id ${id} found.`
         ) : (
           <>

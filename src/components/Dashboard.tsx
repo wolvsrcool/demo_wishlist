@@ -52,8 +52,6 @@ export function Dashboard() {
 
   const { setCreatingWish } = useOutletContext<OutletContextType>();
 
-  if (isLoading) return <div>Loading...</div>;
-
   return (
     <div className="p-6 flex flex-col gap-12 max-[40em]:p-4">
       <div
@@ -87,11 +85,14 @@ export function Dashboard() {
         </Button>
       </div>
       <div className="max-w-400 m-auto justify-center flex flex-wrap gap-12 max-[56em]:grid-cols-3">
-        {wishlist.length > 0 ? (
+        {isLoading ? (
+          <div>Loading...</div>
+        ) : wishlist.length > 0 ? (
           wishlist.map((wish) => <WishCard key={wish.id} wish={wish} />)
         ) : (
           <p>Start by adding a wish!</p>
         )}
+
         <div className="w-full">
           {totalPages > 1 && (
             <Pagination

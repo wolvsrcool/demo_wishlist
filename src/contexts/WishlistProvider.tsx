@@ -54,20 +54,21 @@ export function WishlistProvider({ children }: Props) {
 
   const getWishlistSortedPaginated = useCallback(
     async function () {
-      const sortStr = `_sort=${activeSort.value === "desc" ? "-" : ""}${
-        activeSort.field
+      const sortStr = `_sort=${activeSort.field}&_order=${
+        activeSort.value === "desc" ? "desc" : "asc"
       }`;
 
       const data = await get(`wishlist?${sortStr}&_page=${page}&_per_page=10`);
       setWishlist(data.data);
-      setTotalPages(data.pages);
+      setTotalPages(Math.ceil(Number(data.headers.get(`X-Total-Count`)) / 10));
     },
     [get, activeSort, page]
   );
 
   const getWishById = useCallback(
     async function (id: string) {
-      return await get(`wishlist/${id}`);
+      const data = await get(`wishlist/${id}`);
+      return data.data;
     },
     [get]
   );
